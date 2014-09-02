@@ -1,0 +1,27 @@
+name:                   DataViz
+version:                0.0.1
+stability:              provisional
+license:                BSD3
+license-file:           LICENSE
+
+cabal-version:          >= 1.8
+build-type:             Simple
+
+author:                 Andrew Darqui <andrew.darqui@gmail.com>
+maintainer:             Andrew Darqui <andrew.darqui@gmail.com>
+homepage:               github.com/adarqui/DataViz
+
+category:               Experimental
+synopsis:               Abstract
+
+Library
+ hs-source-dirs:        src
+ exposed-modules:
+                        Data.Viz
+                        Data.Viz.Quasi
+                        Data.Viz.Examples.Topologies
+                        Data.Viz.Backend.Jit.ForceDirected
+                        Data.Viz.Backend.Jit.ForceDirected.Example
+
+ build-depends:         base >= 3 && <5, bytestring, containers, aeson, template-haskell
+ ghc-options:           -Wall -rtsopts
