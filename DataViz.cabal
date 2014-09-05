@@ -22,6 +22,7 @@ Library
                         Data.Viz.Examples.Topologies
                         Data.Viz.Backend.Jit.ForceDirected
                         Data.Viz.Backend.Jit.ForceDirected.Example
+                        Data.Viz.Backend.GraphViz.Map
 
  build-depends:         base >= 3 && <5, bytestring, containers, aeson, template-haskell
  ghc-options:           -Wall -rtsopts
